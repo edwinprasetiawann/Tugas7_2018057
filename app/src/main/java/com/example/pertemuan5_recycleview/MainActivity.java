@@ -58,10 +58,10 @@ public class MainActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 if (id == R.id.nav_profile){
                     Intent a = new Intent(MainActivity.this, MainActivity.class);startActivity(a);
-                }else if (id == R.id.nav_view){
+                }else if (id == R.id.nav_alarm){
                     Intent a = new Intent(MainActivity.this, MainActivity2.class);startActivity(a);
                 }
-                else if (id == R.id.nav_message){
+                else if (id == R.id.nav_input){
                     Intent a = new Intent(MainActivity.this, MainActivity3.class);startActivity(a);
                 }
                 return true;

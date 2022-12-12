@@ -70,10 +70,10 @@ public class MainActivity2 extends AppCompatActivity {
                 if (id == R.id.nav_profile){
                     Intent a = new Intent(MainActivity2.this,MainActivity.class);
                     startActivity(a);
-                }else if (id == R.id.nav_chat){
+                }else if (id == R.id.nav_alarm){
                     Intent a = new Intent(MainActivity2.this, MainActivity2.class);
                     startActivity(a);
-                }else if (id == R.id.nav_message){
+                }else if (id == R.id.nav_input){
                     Intent a = new Intent(MainActivity2.this, MainActivity3.class);
                     startActivity(a);
                 }
